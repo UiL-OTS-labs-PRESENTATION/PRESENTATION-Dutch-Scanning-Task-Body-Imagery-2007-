@@ -1,0 +1,78 @@
+# Template Trials 
+
+# Aanbieden van paren van lichaamsdelen voor een trial
+trial {
+		picture {		
+			text {
+			font_size = 32;
+			system_memory = true;
+			caption = "+";	
+			};
+		x=0; y=0;};
+	   duration = 250;
+
+		nothing {}; code = "begin1"; 
+		picture {		
+			text {
+			font_size = 32;
+			system_memory = true;
+			caption = $zin11;	
+			};
+		x=0; y=0;};
+		code = $zin11;
+	   delta_time = 250;
+	   duration = 750;
+
+		picture default;
+	   delta_time = 750;
+	   duration = 250;
+  
+		picture {		
+			text {
+			font_size = 32;
+			system_memory = true;
+			caption = $zin12;	
+			};
+		x=0; y=0;};
+		code = $zin12;
+	   delta_time = 250;
+	   duration = 750;
+		nothing {};  code = "end1"; delta_time = 750;
+
+		picture default;
+#	   delta_time = 500;
+	   duration = 1500;
+
+		nothing {}; delta_time = 2000; code = "begin2"; 
+		picture {		
+			text {
+			font_size = 32;
+			system_memory = true;
+			caption = $zin21;	
+			};
+		x=0; y=0;};
+		code = $zin21;
+	   duration = 750;
+
+		picture default;
+	   delta_time = 750;
+	   duration = 250;
+  
+		picture {		
+			text {
+			font_size = 32;
+			system_memory = true;
+			caption = $zin22;	
+			};
+		x=0; y=0;};
+		code = $zin22;
+	   delta_time = 250;
+	   duration = 750;
+		nothing {};  code = "end2"; delta_time = 750;
+
+		nothing {}; delta_time = 10;code = $trialcode; 
+		nothing {}; delta_time = 5000; code = "end_trial";
+};
+
+
+#End

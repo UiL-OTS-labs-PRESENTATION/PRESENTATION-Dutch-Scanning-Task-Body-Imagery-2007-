@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="goed_data" version="1.1.0" audacityversion="1.2.6" sel0="0.0580498866" sel1="0.5921088435" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="Audiospoor" channel="2" linked="0" offset="0.05804989" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="524288" sampleformat="131073" numsamples="23552" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00016.au' len='23552' min='-0.999817' max='0.830808' rms='0.092840'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>
